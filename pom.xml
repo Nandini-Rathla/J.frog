@@ -18,7 +18,20 @@
  <module>sub</module>
  <module>add</module>
 </modules>
-
+  
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DevOps-releases</name>
+        <url>http://18.224.59.218:8081/artifactory/Nandini-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>central</id>
+        <name>DevOps-snapshots</name>
+        <url>http://18.224.59.218:8081/artifactory/Nandini-repo</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
